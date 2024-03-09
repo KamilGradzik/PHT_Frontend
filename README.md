@@ -13,11 +13,7 @@
 ## **About**
 
 <br>
-
     It's a React.js application that represents weather data based on selected weather station. 
-    Upoun entering the application you will be asked to select city or you can directly enter url page with city id, 
-    after selecting city you will be redirected to main page. Here weather data will be displayed in tiles in an hourly interval.
-    User can click on the tile to get more specifed data with will be represented in modal.
-    In main page you can switch city using navbar also using navbar you can switch language.
-
+    Upoun entering the application you will be asked to select city, after selecting city you will be redirected to main page. 
+    Here weather data will be displayed in tiles. User can specify date to get data with will be represented in modal.
 <br>
