@@ -8,7 +8,6 @@ import ReadingTile from "../components/reading-tile"
 import { AppContext } from "../utils/app-context"
 import { useNavigate } from "react-router-dom"
 import Sensor from "../models/sensor"
-import moment from "moment";
 
 
 const ReadingsPage:React.FC = ():ReactElement => {
