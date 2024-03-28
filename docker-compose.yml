@@ -2,13 +2,13 @@ version: '3'
 
 services:
   web:
-    container_name: PHT_Frontend_${APP_ENV}
+    container_name: PHT_Frontend_Dev
     build:
       context: .
-      dockerfile: Dockerfile.${APP_ENV}
+      dockerfile: Dockerfile.dev
     ports:
-      - 3000:3000
+      - 80:80
     volumes:
       - ./src:/app/src
     environment:
-      - NODE_ENV=${APP_ENV}
+      - NODE_ENV=dev
