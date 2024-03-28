@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  web:
+    container_name: PHT_Frontend_${APP_ENV}
+    build:
+      context: .
+      dockerfile: Dockerfile.${APP_ENV}
+    ports:
+      - 3000:3000
+    volumes:
+      - ./src:/app/src
+    environment:
+      - NODE_ENV=${APP_ENV}
